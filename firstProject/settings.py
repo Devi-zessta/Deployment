@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-fdqoiuafw2kzw@8xddp#4@x)$&yv5)2yjenvvm@el#=06&8dyi
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['172.31.7.166']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -85,7 +85,7 @@ DATABASES = {
         'NAME': 'travelloDB',
         'USER':'postgres',
         'PASSWORD':'123456789',
-        'HOST':'database-1.ctq7fbmhuued.ap-south-1.rds.amazonaws.com',
+        'HOST':'172.31.42.180',
         'PORT': '5432',
     }
 }
