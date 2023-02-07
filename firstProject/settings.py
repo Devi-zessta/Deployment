@@ -85,7 +85,7 @@ DATABASES = {
         'NAME': 'travelloDB',
         'USER':'postgres',
         'PASSWORD':'123456789',
-        'HOST':'172.31.42.180',
+        'HOST':'ip-172-31-42-180.ap-south-1.compute.internal',
         'PORT': '5432',
     }
 }
