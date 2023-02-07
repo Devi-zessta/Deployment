@@ -84,7 +84,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'travelloDB',
         'USER':'Devi',
-        'PASSWORD':''123456789'',
+        'PASSWORD':'123456789',
         'HOST':'localhost',
         'PORT': '5432',
     }
