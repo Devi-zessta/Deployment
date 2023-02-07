@@ -80,13 +80,14 @@ WSGI_APPLICATION = 'firstProject.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
+   'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'travelloDB',
-        'USER':'Devi',
-        'PASSWORD':'123456789',
-        'HOST':'localhost',
-        'PORT': '5432',
+        'NAME': 'myproject',
+        'USER': 'myprojectuser',
+        'PASSWORD': 'password',
+        'HOST': 'localhost',
+        'PORT': '',
+    
     }
 }
 
