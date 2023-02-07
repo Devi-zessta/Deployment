@@ -81,11 +81,11 @@ WSGI_APPLICATION = 'firstProject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'travelloDB',
-        'USER':'postgres',
+        'USER':'Devi',
         'PASSWORD':'123456789',
-        'HOST':'ip-172-31-42-180.ap-south-1.compute.internal',
+        'HOST':'localhost',
         'PORT': '5432',
     }
 }
